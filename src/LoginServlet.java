@@ -14,12 +14,12 @@ public class LoginServlet extends HttpServlet
 	if(user.equalsIgnoreCase("admin") && pass.equalsIgnoreCase("admin"))
 	{
 		session.setAttribute("userName",user);
-		response.sendRedirect("/HomePage.jsp");
+		response.sendRedirect("HomePage.jsp");
 	}
 	else
 	{
 		session.setAttribute("errorMessage","Invalid Credentials");
-		response.sendRedirect("/ErrorPage.jsp");
+		response.sendRedirect("ErrorPage.jsp");
 	}
  
 	}

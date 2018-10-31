@@ -1,6 +1,5 @@
 ## Academic Office Management System 
 
-### Eclipse EE Dynamic Web Project
 
 Academic Office Management System is a dynamic web application which manages the student course enrollment, student grades and pointer calculation and transcript generation. 
 
@@ -23,5 +22,5 @@ Academic Office Management System is a dynamic web application which manages the
 	</li>
 	<li><a href="https://github.com/harshup18">Harsh Upadhyay</a>
 	</li>
-	<li><a href="https://github.com/keshavsharma98">Rahul Asnani</a></li>
+	<li><a href="https://github.com/keshavsharma98">Keshav Sharma</a></li>
 </ul>
