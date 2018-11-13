@@ -49,39 +49,60 @@
         <div class="form-group">
           <label class="control-label col-sm-2" for="email">C1</label>
           <div class="col-sm-10">
-            <input type="email" class="form-control" id="email" placeholder="Semester" name="email" disabled="true">
+            <input type="email" class="form-control" id="email" placeholder="C1 Name" name="email" disabled="true">
           </div>
         </div>
         <div class="form-group">
           <label class="control-label col-sm-2" for="email">C2</label>
           <div class="col-sm-10">
-            <input type="email" class="form-control" id="email" placeholder="Semester" name="email" disabled="true">
+            <input type="email" class="form-control" id="email" placeholder="C2 Name" name="email" disabled="true">
           </div>
         </div>
         <div class="form-group">
           <label class="control-label col-sm-2" for="email">C3</label>
           <div class="col-sm-10">
-            <input type="email" class="form-control" id="email" placeholder="Semester" name="email" disabled="true">
+            <input type="email" class="form-control" id="email" placeholder="C3 Name" name="email" disabled="true">
           </div>
         </div>
         <div class="form-group">
           <label class="control-label col-sm-2" for="email">C4</label>
           <div class="col-sm-10">
-            <input type="email" class="form-control" id="email" placeholder="Semester" name="email" disabled="true">
+            <input type="email" class="form-control" id="email" placeholder="C4 Name" name="email" disabled="true">
           </div>
         </div>
 
         <h4 style="padding-left: 110px">Program Electives</h4>
-        <select name="cars">
-            <option value="volvo">PE1</option>
-            <option value="saab">PE2</option>
-            <option value="fiat">PE3</option>
-            <option value="audi">PE4</option>
+
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="email">PE 1</label>
+          <div class="col-sm-10">
+            <select name="cars">
+            <option value="volvo">Rank 1</option>
+            <option value="saab">Rank 2</option>
         </select>
-        
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="email">PE 1</label>
+          <div class="col-sm-10">
+            <select name="cars">
+            <option value="volvo">Rank 1</option>
+            <option value="saab">Rank 2</option>
+        </select>
+          </div>
+        </div>
+
+
         <div class="form-group">        
           <div class="col-sm-offset-2 col-sm-10">
-            <button type="submit" class="btn btn-default">Submit</button>
+            <button type="submit" class="btn btn-danger" style="width: 100px">Submit</button>
+          </div>
+        </div>
+
+        <div class="form-group">        
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-danger"  style="width: 100px">L o c k</button>
           </div>
         </div>
       </form>

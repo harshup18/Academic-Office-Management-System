@@ -10,6 +10,7 @@
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="res/css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 <body>
@@ -25,15 +26,20 @@
 
     <div class="col-md-12" align="center" style="padding-top: 40px">
         <a href="CourseReg.jsp">
-            <button type="button" class="btn btn-primary btn-lg">Course Registration</button>
+            <button class="w3-button w3-bar-block w3-border">Course Registration</button>
         </a>
     </div>
     <div class="col-md-12" align="center" style="padding-top: 40px">
-        <button type="button" class="btn btn-primary btn-lg">SGPA/CGPA View</button>
+        <div class="w3-dropdown-hover">
+          <button class="w3-button">SGPA / CGPA View</button>
+          <div class="w3-dropdown-content w3-bar-block w3-border">
+            <a href="GpaView.jsp" class="w3-bar-item w3-button">SEM 1</a>
+            <a href="#" class="w3-bar-item w3-button">SEM 2</a>
+            <a href="#" class="w3-bar-item w3-button">SEM 3</a>
+          </div>
+        </div>
     </div>
-    <div class="col-md-12" align="center" style="padding-top: 40px">
-        <button type="button" class="btn btn-primary btn-lg">Transcript Generation</button>
-    </div>
+    
 
 </body>
 </html>
