@@ -16,6 +16,11 @@ public class LoginServlet extends HttpServlet
 		session.setAttribute("userName",user);
 		response.sendRedirect("HomePage.jsp");
 	}
+	else if(user.equalsIgnoreCase("student") && pass.equalsIgnoreCase("student"))
+	{
+		session.setAttribute("userName",user);
+		response.sendRedirect("student.jsp");
+	}
 	else
 	{
 		session.setAttribute("errorMessage","Invalid Credentials");
