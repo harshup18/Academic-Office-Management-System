@@ -4,7 +4,7 @@
 <html>
 
 <head>
-    <title>AOMS-Sign In</title>
+    <title>A O M S</title>
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -79,7 +79,7 @@
 
     <!--Footer-->
     <div class="footer">
-        <p>Copyright © 2018 AOMS-Academic Office Management System. All Rights Reserved.</p>
+        <p>Copyright © 2018 Academic Office Management System. All Rights Reserved.</p>
     </div>
 
 
